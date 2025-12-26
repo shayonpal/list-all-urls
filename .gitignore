@@ -1,0 +1,16 @@
+# Serena code analysis cache and memories
+.serena/
+
+# IDE and editor cache
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Local environment variables
+.env.local
+.env*.local
