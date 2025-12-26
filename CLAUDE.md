@@ -89,9 +89,29 @@ Open `http://localhost:8000` and verify all projects load, search works, and the
 
 ## Deployment
 
-The site is deployed via **Cloudflare Pages** and builds directly from the repository. The `.wrangler` directory is present for Cloudflare configuration but is not part of the codebase logic.
+The site is deployed via **Cloudflare Pages** and is hosted at:
+- **Primary**: `list.uberfolks.ca`
+- **Pages domain**: `list-all-urls.pages.dev`
 
-**Important**: Always ensure `index.html` is valid and the site works locally before pushing changes. The entire site must work as a static HTML + JS bundle with no build step.
+**Deployment Process**:
+
+After making changes, deploy to Cloudflare Pages using wrangler:
+
+```bash
+wrangler pages deploy . --project-name=list-all-urls
+```
+
+This uploads all files to Cloudflare Pages and creates a new deployment. The `.wrangler` directory stores local Cloudflare configuration and should not be committed.
+
+**Pre-deployment Checklist**:
+1. Test locally with a static HTTP server (`python3 -m http.server` or `npx serve`)
+2. Verify all projects display correctly in the grid
+3. Test search functionality across different browsers/devices
+4. Ensure responsive behavior on mobile (max-width: 600px)
+5. Commit changes to git and push to `origin/main`
+6. Run `wrangler pages deploy` from the repository root
+
+**Important**: The entire site must work as a static HTML + JS bundle with no build step. Do not add frameworks, build tools, or external dependencies.
 
 ## Modifying the Project Data or Adding Features
 
