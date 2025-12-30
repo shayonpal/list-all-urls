@@ -4,5 +4,11 @@
   "compatibility_date": "2025-12-30",
   "assets": {
     "directory": "."
-  }
+  },
+  "routes": [
+    {
+      "pattern": "list.uberfolks.ca",
+      "zone_name": "uberfolks.ca"
+    }
+  ]
 }
