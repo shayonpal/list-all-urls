@@ -37,9 +37,9 @@ const projects = [
     },
     {
         name: "Dining Discovery",
-        url: "https://dining.uberfolks.ca",
+        url: "https://diningbuddy.ca",
         description: "Restaurant reviews and dining logs.",
-        tags: ["Worker", "Lifestyle"]
+        tags: ["Vercel", "Lifestyle"]
     },
     {
         name: "Product Ideas PPT",

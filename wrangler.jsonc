@@ -1,0 +1,8 @@
+{
+  "name": "list-all-urls",
+  "type": "javascript",
+  "compatibility_date": "2025-12-30",
+  "assets": {
+    "directory": "."
+  }
+}
