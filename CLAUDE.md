@@ -95,13 +95,7 @@ The site is deployed via **Cloudflare Pages** and is hosted at:
 
 **Deployment Process**:
 
-After making changes, deploy to Cloudflare Pages using wrangler:
-
-```bash
-wrangler pages deploy . --project-name=list-all-urls
-```
-
-This uploads all files to Cloudflare Pages and creates a new deployment. The `.wrangler` directory stores local Cloudflare configuration and should not be committed.
+Deployments happen automatically via GitHub Actions when pushing to `main`. The workflow (`.github/workflows/deploy.yml`) uses Cloudflare API credentials stored as GitHub secrets (`CLOUDFLARE_API_TOKEN` and `CLOUDFLARE_ACCOUNT_ID`).
 
 **Pre-deployment Checklist**:
 1. Test locally with a static HTTP server (`python3 -m http.server` or `npx serve`)
@@ -109,7 +103,7 @@ This uploads all files to Cloudflare Pages and creates a new deployment. The `.w
 3. Test search functionality across different browsers/devices
 4. Ensure responsive behavior on mobile (max-width: 600px)
 5. Commit changes to git and push to `origin/main`
-6. Run `wrangler pages deploy` from the repository root
+6. Deployment triggers automatically; check status at https://github.com/shayonpal/list-all-urls/actions
 
 **Important**: The entire site must work as a static HTML + JS bundle with no build step. Do not add frameworks, build tools, or external dependencies.
 

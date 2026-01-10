@@ -37,7 +37,7 @@ This repository functions as a centralized landing page to list and link to vari
 - Do **not** introduce frameworks like React, Vue, or build tools like Webpack/Vite unless explicitly instructed by the user. The goal is to keep this project "build-free" and simple.
 
 ### 4. Deployment
-- The project is deployed via Cloudflare Pages.
+- Deployed via Cloudflare Pages with automatic GitHub Actions deployment on push to `main`.
 - Ensure `index.html` is always valid and runnable locally via a simple HTTP server (e.g., `python3 -m http.server` or `npx serve`).
 
 ## Common Tasks
