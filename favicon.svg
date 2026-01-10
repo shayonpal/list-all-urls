@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1200">
+  <style>
+    :root {
+      --icon-color: #3b82f6;
+      --bg-color: #1e1e1e;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --icon-color: #A0C5EC;
+        --bg-color: #1e1e1e;
+      }
+    }
+
+    @media (prefers-color-scheme: light) {
+      :root {
+        --icon-color: #2563eb;
+        --bg-color: #ffffff;
+      }
+    }
+
+    rect.background {
+      fill: var(--bg-color);
+    }
+
+    path {
+      fill: var(--icon-color);
+    }
+  </style>
+
+  <rect class="background" width="1200" height="1200"/>
+  <path d="M698.598,922.244h-199.6V722.646h199.6V922.244z M951.104,922.244H751.503V722.646h199.601V922.244z M446.092,922.244H246.493V722.646h199.599V922.244L446.092,922.244z M951.104,290.982v367.936h-704.61V290.982H951.104z M1052.104,185.17H147.896v829.66h904.209V185.17H1052.104z M0,1161.521V38.478h1200v1123.045L0,1161.521L0,1161.521z"/>
+</svg>
