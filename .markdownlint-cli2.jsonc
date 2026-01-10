@@ -1,1 +1,5 @@
-/home/shayon/DevProjects/~meta/.markdownlint-cli2.jsonc
+{
+  "config": {
+    "extends": "~/.markdownlint.jsonc"
+  }
+}
