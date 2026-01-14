@@ -12,6 +12,12 @@ const projects = [
         tags: ["Pages", "Business"]
     },
     {
+        name: "JCP Foundation (New)",
+        url: "https://new.jcpfoundation.org",
+        description: "WordPress site replacing current jcpfoundation.org.",
+        tags: ["Hetzner", "Nonprofit"]
+    },
+    {
         name: "Tiffin in Toronto",
         url: "https://tiffinintoronto.ca",
         description: "Meal service discovery platform for Toronto.",
@@ -27,6 +33,12 @@ const projects = [
         name: "RSS Reader",
         url: "https://reader.uberfolks.ca",
         description: "Distraction-free article reader.",
+        tags: ["Pages", "Tool"]
+    },
+    {
+        name: "n8n Automation",
+        url: "https://n8n.uberfolks.ca/",
+        description: "Workflow automation dashboard.",
         tags: ["Pages", "Tool"]
     },
     {
