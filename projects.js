@@ -58,6 +58,30 @@ const projects = [
         url: "https://ppt.uberfolks.ca",
         description: "Presentation deck for product concepts.",
         tags: ["Pages", "Presentation"]
+    },
+    {
+        name: "Shayon's Newsletter",
+        url: "https://newsletters.shayonpal.com",
+        description: "Personal newsletter via Quail.cc.",
+        tags: ["Quail", "Newsletter"]
+    },
+    {
+        name: "Shayon Pal",
+        url: "https://shayonpal.com",
+        description: "Personal digital garden via Obsidian Publish.",
+        tags: ["Obsidian", "Personal"]
+    },
+    {
+        name: "TWM Online",
+        url: "https://twmonline.net",
+        description: "Blog run with college friends.",
+        tags: ["Blog", "Personal"]
+    },
+    {
+        name: "JCP Foundation",
+        url: "https://jcpfoundation.org",
+        description: "Current live site for JCP Foundation charity.",
+        tags: ["Nonprofit", "Live"]
     }
 ];
 
