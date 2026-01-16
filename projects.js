@@ -18,6 +18,12 @@ const projects = [
         tags: ["Hetzner", "Nonprofit"]
     },
     {
+        name: "JCP Foundation",
+        url: "https://jcpfoundation.org",
+        description: "Current live site for JCP Foundation charity.",
+        tags: ["Nonprofit", "Live"]
+    },
+    {
         name: "Tiffin in Toronto",
         url: "https://tiffinintoronto.ca",
         description: "Meal service discovery platform for Toronto.",
@@ -76,12 +82,6 @@ const projects = [
         url: "https://twmonline.net",
         description: "Blog run with college friends.",
         tags: ["Blog", "Personal"]
-    },
-    {
-        name: "JCP Foundation",
-        url: "https://jcpfoundation.org",
-        description: "Current live site for JCP Foundation charity.",
-        tags: ["Nonprofit", "Live"]
     }
 ];
 
